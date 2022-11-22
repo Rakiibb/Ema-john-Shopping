@@ -1,0 +1,47 @@
+.single-product{
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    width: 300px;
+    height: 570px;
+    position: relative;
+}
+.single-product img {
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    padding: 7px;
+}
+.single-product h1{
+    font-size: 21px;
+    font-family: 'Lato';
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.single-product h2{
+    font-size: 17px;
+    font-family: 'Lato';
+    padding: 0 14px;
+}
+.product-last-part{
+    font-size: 12px;
+    font-family: 'Lato';
+    padding: 0 14px;
+    margin-top: 47px;
+}
+.button{
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: orange;
+}
+.button p {
+    padding: 0 6px;
+}
